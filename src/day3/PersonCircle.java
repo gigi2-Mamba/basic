@@ -1,25 +1,27 @@
 package day3;
 
+import day3.Person;
+
 /**
  *
  */
 public class PersonCircle {
     private  int count =0; //圈子大小
-    private  Person first;//第一个人
+    private Person first;//第一个人
     private Person last;//最后一个人
 
     //圈子大小
     public PersonCircle(int count) {
         //循环创建Person对象 加入圈子中
         for (int i = 0; i <count ; i++) {
-            Person p=new Person(i);
+            day3.Person p=new day3.Person(i);
             //加入到圈子中
             add(p);
         }
         this.count = count;
     }
 //加人到圈子中
-    private void add(Person p) {
+    private void add(day3.Person p) {
        //圈子如果没有一个人，圈子的第一个和最后一个人都是新添加的人，新人的左右都是自己本身
   if(this.count==0){
       this.first=p;
@@ -63,7 +65,7 @@ public class PersonCircle {
             p.getRight().setLeft(p.getLeft());
 
         }
-
+     count --;
         //圈子中人数需要减一
 
     }
