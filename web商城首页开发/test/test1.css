@@ -1,0 +1,48 @@
+.car {
+	list-style: none;/* 去掉点 */
+}
+.car li{
+	float: left; /* li 横排显示*/
+}
+.car li a {
+	width: 80px;
+	height: 30px; /* a属于行级标签，设置不了高度宽度，除非将a变成块级*/
+	display: inline-block;/* 设置了块级 */
+	background-color: #FFE4C4;
+	margin: 2px;
+	/* 文字水平居中 */
+	text-align: center;
+	/* 垂直居中 设置行高 = 高度 */
+	line-height: 30px;
+	/* 去掉下划线 */
+	text-decoration: none;
+	/* 字体的大小和颜色 */
+	font-size: 12px;
+	color: #41A863;
+}
+
+.car li a:hover {
+	background-color: #FF0000;
+}
+
+/* 背景图 */
+.bg {
+	/* 能设置背景图的容器一定要有一定的高度和宽度 */
+	height: 400px;
+	width: 600px;
+	background-color: aqua;
+	border: 3px solid red;
+	/* 设置背景图 */
+	background-image: url(../img/ad-02.jpg);
+	background-repeat: no-repeat;/* s会否平铺 */
+	/* 控制显示的位置 */
+	background-position: center;/* 中间 */
+	background-position: top right;/* 右上角 */
+	background-position: bottom right;/* 右上角 */
+	background-position: top center;/* 顶部的中间 */
+	background-position: bottom left;/* 左下角 */
+	
+	background: url(../img/ad-02.jpg) no-repeat bottom center;/* 最后2个参数可以使用具体的像素值 */
+	
+	background: url(../img/ad-02.jpg) no-repeat 50px 50px;/* 可以负值  */
+}
