@@ -1,0 +1,99 @@
+#center{
+	height: 645px;
+	width:100%
+	
+}
+
+#center-left {
+	margin-top: 5px;
+	width: 202px;
+	height: 100%;
+	float:left;
+	background: url(../img/bg.gif) no-repeat 0px  -5px;
+
+		
+}
+#center-left .space{
+	height: 30px;
+	width:100%
+	 
+}
+#center-left #content{
+	padding-left:15px;
+	
+}
+#center-left #content a{
+	display: inline-block;
+	width: 80%
+	
+}
+#center-left #content h3{
+	height: 28px;
+	line-height: 28px;
+	font-weight: bodl;
+	
+	
+}
+/* 好操作 */
+#center-left #content  li{
+	width: 33.3%;
+	float:left;
+	height:20% ;
+	
+	
+}
+#center-left #content ul{
+	height: 121px;
+	
+	
+}
+#center-left #content h3 a{
+	height: 29px;
+	color: #ff7300;
+	font-size:13px;
+}
+#center-mid {
+	margin-top: 5px;
+	width: 510px;
+	height: 100%;
+	float: left;
+	margin-left: 6px;
+	margin-right: 6px;
+/* 	background-color: red; */
+}
+
+#center-mid #center-mid-ad {
+	width:514px;
+	height:160px;
+	margin-bottom: 10px;
+	maggin:0 auto;
+	overflow: hidden; /*超出高度的内容隐藏 */
+	position: relative;
+}
+#center-mid #center-mid-ad #nums{
+	position: absolute;
+	left: 50px;
+	bottom: 10px;
+	
+}
+#center-mid #center-mid-ad #nums li{
+	float:left;
+	width: 20px;
+	height: 20px;
+	background-color: seagreen;
+	margin-right: 8px;
+	text-align: center;
+	opacity: .9;
+	cursor: pointer;
+	font-size: 15px;
+	
+	
+}
+ 
+#center-right {
+	margin-top: 5px;
+	width: 218px;
+	height:100%;
+	float: left;
+	background-color: yellow;
+}

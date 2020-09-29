@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>购物车</title>
+		<style type="text/css">
+			/* 去掉边距 */
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			#container {
+				width: 980px;
+				/* background-color: antiquewhite; *//* 最后要删除 */
+				height: 1000px;/* 最后要删除 */
+				/* 居中 */
+				margin: 0 auto;
+			}
+			#car {
+				float: right;/* 右上角 */
+				padding-top: 5px;
+			}
+			/* 3 */
+			#car  ul li {
+				list-style: none;
+				float: left;
+			}
+			/* 4 */
+			#car  ul li a {
+				width: 28px;
+				height: 28px;
+				text-decoration: none;
+				font-size: 12px;
+				color: #333333;
+				display: inline-block;
+				line-height: 28px;
+				text-align: center;
+			}
+			/* 5 */
+			#car  ul li a.text {
+				width: 54px;
+			}
+			/* 6 */
+			#car  ul li a.pic {
+				
+				background: url(../img/icon.gif) no-repeat 4px -2px;
+			}
+			#car  ul li a.pic2{background-position: -43px -2px;}
+			#car  ul li a.pic3{background-position: -84px -2px;}
+			#car  ul li a.pic4{background-position: -125px -2px;}
+			
+			/* 7 处理注册和登录 */
+			#car  ul li a.pic5{
+				width: 46px;
+				background-position: -1px -25px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 1.容器html结构  将容器居中对齐
+		2.购物车的html的结构，整体右边显示
+		3、去掉每个li前面的.  让li横排显示
+		4.控制a的字体大小和颜色，去掉下划线，设置a的宽度和高度，以及对齐方式
+		5.控制文字部分的宽度
+		6.加入背景图、单独处理具体的某一个
+		 -->
+		<div id="container">
+			<!-- 所有的页面内容都放在该div中 -->
+			<div id="car">
+				<ul>
+					<li><a href="" class="pic"></a></li>
+					<li><a href="" class="text">购物车</a></li>
+					<li><a href="" class="pic pic2"></a></li>
+					<li><a href="" class="text">加入收藏</a></li>
+					<li><a href="" class="pic pic3"></a></li>
+					<li><a href="" class="text">帮助中心</a></li>
+					<li><a href="" class="pic pic4"></a></li>
+					<li><a href="" class="text">设为首页</a></li>
+					<li><a href="" class="pic pic5">登录</a></li>
+					<li><a href="" class="pic pic5">注册</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
