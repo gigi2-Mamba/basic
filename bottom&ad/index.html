@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>贵美商城</title>
+		 <!-- 中间部分的样式 -->
+		 <link rel="stylesheet" type="text/css" href="css/index_center.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<!-- <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script> -->
+		<script src="jquery/jquery-3.3.1.min.js"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		
+	<!-- 	<script>
+			function soso(){
+			    var content =document.getElementById("content").value
+			    alert("搜索的内容是：" +content )
+			
+			}
+		</script> -->
+		<!--导航部分 a链接 ul有很多页面共同的样式 -->
+	</head>
+	<body> 
+		<!-- 1.清楚边距 -->
+		<!--2. 编写一个div用来存放所有网页内容，并且在div显示在网页中间 -->
+		<!-- 3.分析头部可以拆分几个区域来做 -->
+		<!-- 4.确定上下两部分的高度和宽度 -->
+		<!-- 确定块状元素 -->
+		<div id="container">
+            <div id="header">
+				<div id="header-top">
+					<!-- 上部分 -->
+					<div id="logo">
+	                 <a href=""></a>
+					</div>
+					
+						<div id="car">
+							<ul>
+								<li><a href="" class="pic"></a></li>
+								<li><a href="" class="text">购物车</a></li>
+								<li><a href="" class="pic pic2"></a></li>
+								<li><a href="" class="text">加入收藏</a></li>
+								<li><a href="" class="pic pic3"></a></li>
+								<li><a href="" class="text">帮助中心</a></li>
+								<li><a href="" class="pic pic4"></a></li>
+								<li><a href="" class="text">设为首页</a></li>
+								<li><a href="" class="pic pic5">登录</a></li>
+								<li><a href="" class="pic pic5">注册</a></li>
+							</ul>
+						</div>
+						<div id="welcome">
+							<span>欢迎访问, </span>
+							<span>贵美商城</span>
+						</div>
+					
+					
+				</div>
+					<div id="header-nav">
+						<!-- 下半部分 -->
+						<ul id="nav">
+							<li>
+								<a href="#">首　　页</a>
+								<a href="#">家用电器</a>
+								<a href="#">手机数码</a>
+								<a href="#">日用百货</a>
+								<a href="#">书　　籍</a>
+								<a href="#">帮助中心</a>
+								<a href="#">免费开店</a>
+								<a href="#">全球咨询 </a>
+							</li>
+						</ul>	
+						<ul id="soso">
+							<li><input type="text" id="content1" value=""></li>
+							<li><input type="button" onclick="soso()" id="jesus" value="搜索"></li>
+						</ul>
+					</div>
+				</div>
+			<!-- 网页中间部分结构的编写  202+530+238=970  总的宽度980  剩余10-->
+			<!-- 编写三部分样式 能在页面显示正常位置-->
+			<!-- 把背景图添加到左边分类的div上 -->
+			<!-- 使用一个空的p标签 -->
+			<!-- 6.设置标题的样式 将所有的a标签做成块级标签设置高度和宽度 -->
+			<!-- 7.控制小分类的显示 -->
+			<!-- 用js控制图片切换 -->
+			<div id="center">
+				<div id="center-left">
+					<p class="space"></p>
+					<!-- 左边商品分类 200-->
+					<div id="content">
+						<h3><a href="#">家用电器 </a></h3>
+						<ul>
+						   <li><a href="#">大家电</a></li>
+						   <li><a href="#">洗衣机</a></li>
+						   <li><a href="#">平板电视</a></li>
+						   <li><a href="#">电热水器</a></li>
+						   <li><a href="#">家庭音响</a></li>
+						   <li><a href="#">热水器</a></li>
+						   <li><a href="#">空调冰箱</a></li>
+						   <li><a href="#">冷柜</a></li>
+						   <li><a href="#">DVD</a></li>
+						   <li><a href="#">电视附件</a></li>
+						   <li><a href="#">电燃气社</a></li>
+						   <li><a href="#">家电下乡</a></li>
+						   <li><a href="#">家电服务</a></li>
+						   <li><a href="#">电饭煲</a></li>
+						   <li><a href="#">摄像机</a></li>						   						
+						</ul>
+					</div>	
+					
+					<div id="content">
+						<h3><a href="#">家用电器 </a></h3>
+						<ul>
+						   <li><a href="#">大家电</a></li>
+						   <li><a href="#">洗衣机</a></li>
+						   <li><a href="#">平板电视</a></li>
+						   <li><a href="#">电热水器</a></li>
+						   <li><a href="#">家庭音响</a></li>
+						   <li><a href="#">热水器</a></li>
+						   <li><a href="#">空调冰箱</a></li>
+						   <li><a href="#">冷柜</a></li>
+						   <li><a href="#">DVD</a></li>
+						   <li><a href="#">电视附件</a></li>
+						   <li><a href="#">电燃气社</a></li>
+						   <li><a href="#">家电下乡</a></li>
+						   <li><a href="#">家电服务</a></li>
+						   <li><a href="#">电饭煲</a></li>
+						   <li><a href="#">摄像机</a></li>						   						
+						</ul>
+					</div>	
+					
+					<div id="content">
+						<h3><a href="#">家用电器 </a></h3>
+						<ul>
+						   <li><a href="#">大家电</a></li>
+						   <li><a href="#">洗衣机</a></li>
+						   <li><a href="#">平板电视</a></li>
+						   <li><a href="#">电热水器</a></li>
+						   <li><a href="#">家庭音响</a></li>
+						   <li><a href="#">热水器</a></li>
+						   <li><a href="#">空调冰箱</a></li>
+						   <li><a href="#">冷柜</a></li>
+						   <li><a href="#">DVD</a></li>
+						   <li><a href="#">电视附件</a></li>
+						   <li><a href="#">电燃气社</a></li>
+						   <li><a href="#">家电下乡</a></li>
+						   <li><a href="#">家电服务</a></li>
+						   <li><a href="#">电饭煲</a></li>
+						   <li><a href="#">摄像机</a></li>						   						
+						</ul>
+					</div>	
+					
+					<div id="content">
+						<h3><a href="#">家用电器 </a></h3>
+						<ul>
+						   <li><a href="#">大家电</a></li>
+						   <li><a href="#">洗衣机</a></li>
+						   <li><a href="#">平板电视</a></li>
+						   <li><a href="#">电热水器</a></li>
+						   <li><a href="#">家庭音响</a></li>
+						   <li><a href="#">热水器</a></li>
+						   <li><a href="#">空调冰箱</a></li>
+						   <li><a href="#">冷柜</a></li>
+						   <li><a href="#">DVD</a></li>
+						   <li><a href="#">电视附件</a></li>
+						   <li><a href="#">电燃气社</a></li>
+						   <li><a href="#">家电下乡</a></li>
+						   <li><a href="#">家电服务</a></li>
+						   <li><a href="#">电饭煲</a></li>
+						   <li><a href="#">摄像机</a></li>						   						
+						</ul>
+					</div>	
+					
+				</div>
+				<div id="center-mid">
+					<!-- 图片轮换和疯狂抢购 510-->
+					<div id="center-mid-ad">
+						<!-- 宽度和高度做图片的大小 -->
+						<ul id="imgs">
+							<li><a href=""><img src="img/ad-01.jpg" alt=""></a></li>
+							<li><a href=""><img src="img/ad-02.jpg" alt=""></a></li>
+							<li><a href=""><img src="img/ad-03.jpg" alt=""></a></li>
+							<li><a href=""><img src="img/ad-04.jpg" alt=""></a></li>
+						</ul>
+						<ul id="nums">
+							<li>1</li>
+							<li>2</li>
+							<li>3</li>
+							<li>4</li>
+						</ul>
+					</div>
+                  <!--	编写疯狂抢购的html代码结构 并且设置外层的高度和宽度，添加背景	
+				  建立一张表用来存储广告图片。标的名称adimg
+				  插入模拟数据，数据中的img_url要和后台
+				  
+				  -->
+					<div id="crazyBuy">
+                      <ul>
+                      	<li><a href=""><img src="img/promote-1.jpg" alt=""></a></li>
+                      	<li><a href="">写程序很容易，只要花时间</a></li>
+                      </ul>
+					  <ul>
+					  	<li><a href=""><img src="img/promote-2.jpg" alt=""></a></li>
+					  	<li><a href="">暗示性打广告</a></li>
+					  </ul>
+					  
+					  <ul>
+					  	<li><a href=""><img src="img/promote-3.jpg" alt=""></a></li>
+					  	<li><a href="">暗示性打广告</a></li>
+					  </ul>
+					  <ul>
+					  	<li><a href=""><img src="img/promote-1.jpg" alt=""></a></li>
+					  	<li><a href="">写程序很容易，只要花时间</a></li>
+					  </ul>
+					  <ul>
+					  	<li><a href=""><img src="img/promote-2.jpg" alt=""></a></li>
+					  	<li><a href="">暗示性打广告，</a></li>
+					  </ul>
+					  
+					  <ul>
+					  	<li><a href=""><img src="img/promote-3.jpg" alt=""></a></li>
+					  	<li><a href="">暗示性打广告</a></li>
+					  </ul>
+					  <ul>
+					  	<li><a href=""><img src="img/promote-1.jpg" alt=""></a></li>
+					  	<li><a href="">写程序很容易，只要花时间</a></li>
+					  </ul>
+					  <ul>
+					  	<li><a href=""><img src="img/promote-2.jpg" alt=""></a></li>
+					  	<li><a href="">不屑于相同内容</a></li>
+					  </ul>
+					  
+					  <ul>
+					  	<li><a href=""><img src="img/promote-3.jpg" alt=""></a></li>
+					  	<li><a href="">暗示性打广告</a></li>
+					  </ul>
+
+					</div>
+				</div>
+				<!-- 划分好三个区域
+				     设置顶部的div的背景和内部的html结构
+				 -->
+				<div id="center-right">
+					<!-- 右边区域 238 -->
+					<div id="center-right_top">
+						 <!-- 顶部 -->
+					<!-- 	<div id="cover">
+							<ul>
+								<li><a href="#"><img src="img/1.PNG" alt=""></a></li>
+								<li><a href="#">程序员是个好职业 </a></li>
+								<li><a href="#">程序员是个好职业</a></li>
+								<li><a href="#">程序员是个好职业</a></li>
+								<li><a href="#">程序员是个好职业</a></li>
+							</ul>
+						</div> -->
+					</div>
+					
+					<div id="center-right_mid">
+						<!-- <div id="midheader">
+							<img src="img/2.png">
+						</div> -->
+					
+						 <ul>
+						 	<li><a href="#"><img src="img/show1.jpg" alt=""></a></li>
+						 	<li><a href="#">编写前端代码的电脑</a></li>
+						 </ul>
+						 
+						 <ul>
+						 	<li><a href="#"><img src="img/show2.jpg" alt=""></a></li>
+						 	<li><a href="#">编写前端代码的电脑</a></li>
+						 </ul>
+						 
+						 <ul>
+						 	<li><a href="#"><img src="img/show3.jpg" alt=""></a></li>
+						 	<li><a href="#">编写前端代码的电脑</a></li>
+						 </ul>
+						 
+						 <ul>
+						 	<li><a href="#"><img src="img/show4.jpg" alt=""></a></li>
+						 	<li><a href="#">编写前端代码的电脑</a></li>
+						 </ul>
+					
+					</div>
+					<div id ="center-right_bottom">
+						<!-- 底部 -->
+						<div id="center_nav" class="computer">
+							<ul>
+								<li onclick="showTab('computer','phone')"></li>
+								<li onclick="showTab('phone','computer')"></li>
+							</ul>
+						</div>
+						<div id ="center_content">
+							<div id="computer" class="tab_content" style="display:none;">
+								<p>品牌：　<select name="">
+								<option value="">联想</option>
+								<option value="">小米</option>
+								<option value="">华为</option>
+								</select></p>
+								<p>尺寸：　<select name="">
+								<option value="">13英寸</option>
+								<option value="">14英寸</option>
+								<option value="">15英寸</option>
+								</select></p>
+								<p>品牌：　<select name="">
+								<option value="">4000</option>
+								<option value="">4000-5000</option>
+								<option value="">5000</option>
+								</select></p>
+								<p></p>
+								</div>
+								
+								<div id="phone" class="tab_content" style="display:block;">
+									<p>运营商：　<select name="">
+									<option value="">联通</option>
+									<option value="">移动</option>
+									<option value="">电信</option>
+									</select></p>
+									<p>面　值：　<select name="">
+									<option value="">50</option>
+									<option value="">100</option>
+									<option value="">500</option>
+									</select></p>
+									<p>地区：　　<select name="">
+									<option value="">广东</option>
+									<option value="">广西</option>
+									<option value="">湖南</option>
+									</select></p>
+									<p></p>
+									</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--  -->
+			    <div id="bottom_index">
+					<!-- 友情链接 -->
+					<ul>
+						<li><a href="#">友情链接:</a></li>
+						<li><a href="#">|&nbsp;&nbsp;百度</a></li>
+						<li><a href="#">|&nbsp;&nbsp;GOOGLE</a></li>
+						<li><a href="#">|&nbsp;&nbsp;网易</a></li>
+						<li><a href="#">|&nbsp;&nbsp;淘宝</a></li>
+						<li><a href="#">|&nbsp;&nbsp;京东</a></li>
+						<li><a href="#">|&nbsp;&nbsp;百度</a></li>
+						<li><a href="#">|&nbsp;&nbsp;GOOGLE</a></li>
+						<li><a href="#">|&nbsp;&nbsp;网易</a></li>
+						<li><a href="#">|&nbsp;&nbsp;淘宝</a></li>
+						<li><a href="#">|&nbsp;&nbsp;京东</a></li>
+						<li><a href="#">|&nbsp;&nbsp;百度</a></li>
+						<li><a href="#">|&nbsp;&nbsp;GOOGLE</a></li>
+						<li><a href="#">|&nbsp;&nbsp;网易</a></li>
+						<li><a href="#">|&nbsp;&nbsp;淘宝</a></li>
+						<li><a href="#">|&nbsp;&nbsp;京东</a></li>
+					</ul>
+					<hr>
+					<div>
+						<p>版权： &copy;&copy; xxxxxxxx</p>
+						<p>客服电话： 40000000000001</p>
+						<p>备案：京公网安备11010802022657号</p>
+						<p><img src="img/img1.gif"> <img src="img/img2.gif"><img src="img/img3.gif"><img src="img/img4.gif"></p>
+					</div>
+				</div>
+			</div>
+			<!-- 位置绝对定位是绝对定位，编写广告不用下载container中，直接写在body中 -->
+		   <div id="ad_left">
+			   <div>
+				   <a href="#"><img src="img/list1.jpg"</a>
+				   <img src="img/close.gif" onclick="hiddenAd('ad_left')">
+			   </div>
+		   </div>
+			
+			
+		<div id="ad_right">
+					   <div>
+						   <a href="#"><img src="img/list2.jpg"</a>
+						   <img src="img/close.gif" onclick="hiddenAd('ad_right')">
+					   </div>
+		</div>
+     
+		
+	</body>
+</html>

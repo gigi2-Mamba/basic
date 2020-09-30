@@ -1,0 +1,286 @@
+#center{
+	height: 645px;
+	width:100%
+	
+}
+
+#center-left {
+	margin-top: 5px;
+	width: 202px;
+	height: 100%;
+	float:left;
+	background: url(../img/bg.gif) no-repeat 0px  -5px;
+
+		
+}
+#center-left .space{
+	height: 30px;
+	width:100%
+	 
+}
+#center-left #content{
+	padding-left:15px;
+	
+}
+#center-left #content a{
+	display: inline-block;
+	width: 80%
+	
+}
+#center-left #content h3{
+	height: 28px;
+	line-height: 28px;
+	font-weight: bodl;
+	
+	
+}
+/* 好操作 */
+#center-left #content  li{
+	width: 33.3%;
+	float:left;
+	height:20% ;
+	
+	
+}
+#center-left #content ul{
+	height: 121px;
+	
+	
+}
+#center-left #content h3 a{
+	height: 29px;
+	color: #ff7300;
+	font-size:13px;
+}
+#center-mid {
+	margin-top: 5px;
+	width: 510px;
+	height: 100%;
+	float: left;
+	margin-left: 6px;
+	margin-right: 13px;
+/* 	background-color: red; */
+}
+
+#center-mid #center-mid-ad {
+	width:514px;
+	height:188px;
+	margin-bottom: 4px;
+	maggin:0 auto;
+	overflow: hidden; /*超出高度的内容隐藏 */
+	position: relative;
+}
+#center-mid #center-mid-ad #nums{
+	position: absolute;
+	left: 50px;
+	bottom: 10px;
+	
+}
+#center-mid #center-mid-ad #nums li{
+	float:left;
+	width: 20px;
+	height: 20px;
+	background-color: seagreen;
+	margin-right: 8px;
+	text-align: center;
+	opacity: .9;
+	cursor: pointer;
+	font-size: 15px;
+}
+#crazyBuy {
+	height: 448px;
+	width: 550px;
+	background: url(../img/bg.gif) no-repeat -227px -199px ;
+    padding:43px 2px 300px  ; /*上中下 */
+	display: flex;
+	flex-wrap: wrap; /* 换行处理 */
+	justify-content: space-between;
+}
+#crazyBuy ul{
+	width: 33%;
+	height: 33%;
+}
+ #crazyBuy ul li {
+	/* text-align: center; */
+	 
+ }
+#center-right {
+	margin-top: 5px;
+	width: 218px;
+	height:100%;
+	float: left;
+	/* background-color: yellow; */
+}
+#center-right_top{
+	width: 99%;
+	height: 80px;
+	background: url(../img/bg.gif) no-repeat -760px -5px;
+	/* background-color: yellow; */
+	padding: 40px 3px 20px;
+	
+}
+/* #center-right_top #cover{
+	height: 80 px;
+	width:200px;
+	background-color: darkgreen;
+	
+} */
+/* #center-right_top #cover li {
+	
+	width: 65%;
+	float:left;
+	
+} */
+/* #center-right_top #cover li:first-child{
+	width:35%;
+} */
+#center-right_mid{
+	width:88%;
+	height: 230px;
+    margin: 3px 0px;
+	background: url(../img/bg.gif) no-repeat -755px -141px;
+	padding:45px 15px 10px;
+	/* background-color: darkgreen; */
+}
+/* #midheader {
+	width: 230px;
+	height:20px;
+} */
+
+#center-right_mid ul{
+	height: 25%;
+	clear:both;
+	
+}
+#center-right_mid ul li{
+	width:60%;
+	float: left;
+}
+#center-right_mid ul li:first-child{
+  width:35%
+}
+#center-right_mid ul li:last-child{
+	line-height:43px ;
+}
+#center-right_mid ul li img{
+	border:1px solid gray;
+	
+}
+#center-right_bottom{
+	width:100%;
+	height: 202px;
+	/* background-color: blue ; */
+	
+}
+#center_nav{
+	height:34px;
+	width:100%	
+		
+}
+#center_nav  li:first-child{ 
+	height: 33px;
+	width: 90px;
+	float: left;
+	cursor:pointer
+}  
+#center_nav  li:last-child{
+	height: 100%;
+	width:140px;
+	float:left;
+	cursor:pointer
+	
+}
+.computer {
+	background: url(../img/bg.gif) no-repeat -745px -440px;
+}
+.phone {
+	background: url(../img/bg.gif) no-repeat -211px -11px;
+}
+#center_content {
+	height: 145px;
+	width: 100%;
+    background: url(../img/bg.gif) no-repeat -745px -473px;	
+	padiing-top:25px
+} 
+#center_content .tab_content{
+	
+	width: 180px;
+	height: 156px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	margin-top:30px;
+	margin-left: 40px;
+}
+#center_content .tab_content p{
+	width: :80%;
+	margin: 0 auto;
+	font-size:12px;
+	color: :#333333;
+	line-height:20px ;
+}
+#center_content .tab_content p select{
+	width:83px ;
+	font-size: 12px;
+}
+#center_content .tab_content p:last-child{
+	height: 30px;
+	width:98px ;
+	background: url(../img/bg.gif) no-repeat -817px -585px;
+	cursor: pointer;
+	margin-top: 6px;
+} 
+#bottom_index ul li {
+	float:left;
+}
+#bottom_index ul {
+	width: 88%;
+	margin: 0 auto;
+	height: 20px;
+}
+#bottom_index hr{
+	clear: both;
+	margin: 5px 5px;
+	margin-top: 5px;
+}
+#bottom_index div{
+	width: 438px;
+	margin: 0 auto;
+}
+#bottom_index div p{
+	text-alignL: center;
+	font-size;9px;
+	margin:5px 0;
+}
+#ad_left{
+	position: fixed;
+	left:0;
+	top:130px;
+}
+#ad_left div{
+	width:100px;
+	height:103px;
+	position:relative;
+	
+}
+#ad_left div img{
+	position: absolute;
+	top:0;
+	right: 0;
+}
+
+#ad_right{
+	position: fixed;
+	right:0;
+	top:130px;
+}
+#ad_right div{
+	width:100px;
+	height:103px;
+	position:relative;
+	
+}
+#ad_right div img{
+	position: absolute;
+	top:0;
+	right: 0;
+}
